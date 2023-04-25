@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.3",
+    "nodemon": "^2.0.22",
+    "prompt-sync": "^4.2.0"
+  },
+  "engines": {
+    "node": "16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serkanvarisli/adacase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/serkanvarisli/adacase/issues"
+  },
+  "homepage": "https://github.com/serkanvarisli/adacase#readme",
+  "description": ""
+}
